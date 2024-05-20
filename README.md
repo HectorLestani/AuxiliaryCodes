@@ -12,7 +12,7 @@ Up to version 6.1 of MCNP the format of the surface source file was not publicly
 
 
 DISCLAIMER:
-This little piece of software was developed by Héctor Lestani (hectorlestani@cnea.gob.ar) while working as a researcher for CNEA, the Atomic Energy Commission of Argentina (https://www.argentina.gob.ar/cnea). It is not intended to replace any resource provided by the team at Los Alamos National Lab (https://www.lanl.gov/) responsible for MCNP development (https://mcnp.lanl.gov/). However it is shared as is for the sake of the users community cooperation. The software is shared as is without any warranty of any kind.
+This little piece of software was developed by Héctor Lestani (hectorlestani@cnea.gob.ar) while working as a researcher for CNEA, the Atomic Energy Commission of Argentina (https://www.argentina.gob.ar/cnea). It is not intended to replace any resource provided by the team at Los Alamos National Lab (https://www.lanl.gov/) responsible for MCNP development (https://mcnp.lanl.gov/). However it is shared under GNU General Public License v3.0.
 
 This program was succesfully tested to convert dozens of surface source files generated in MCNP 5 (1.60), containing only neutrons, to the new "SF_00001" format. The results were compared against results obtained with surface source files generated directly in MCNP 6.2, and the tallies obtained were 100 % accurate (exact same numbers using the same random number seed). Nevertheless more testing is needed in order to assure accuracy in other cases (containing other particles than neutron).
 
